@@ -14,3 +14,7 @@ Domain Driven Design is a perfect choice for both the situations presented, sinc
 ### Architectural style
 
 Microservices where selected as the architectural style primarily because of the need of scalability from certain parts of the system in usage peaks - such as enrollment, mid-term and finals periods. Situations like this require more computing power from certain services of the system - e.g. the enrollment and grade recording systems, in the examples given - while not scaling other parts of the system.
+
+### Scaffolding
+
+The initial scaffolding was done via the Springboot Initializr, which generates the general skeleton needed for the application.
