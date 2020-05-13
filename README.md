@@ -1,6 +1,10 @@
 # Mock University System
 Mock university system developed as part of the Software Project Analysis subject from PUC Minas' graduate program.
 
+## Languages
+
+This project uses Java 8 with Spring for the backend and React for the frontend.
+
 ## Architectural decisions
 
 In the sections bellow, the architectural decisions on how to develop such a system are discussed.
@@ -15,6 +19,10 @@ Domain Driven Design is a perfect choice for both the situations presented, sinc
 
 Microservices where selected as the architectural style primarily because of the need of scalability from certain parts of the system in usage peaks - such as enrollment, mid-term and finals periods. Situations like this require more computing power from certain services of the system - e.g. the enrollment and grade recording systems, in the examples given - while not scaling other parts of the system.
 
-### Scaffolding
+### Architectural pattern
+
+MVVM was chosen as the architectural pattern to separate development of graphical user interfaces and server-side business logic (encapsulated as domains in the DDD architecture).
+
+## Scaffolding
 
 The initial scaffolding was done via the Springboot Initializr, which generates the general skeleton needed for the application.
